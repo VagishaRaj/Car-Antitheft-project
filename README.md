@@ -18,5 +18,6 @@ The diagram below lists all the sensors (inputs) and actuators (outputs) connect
 ## System Timings:
 
 The system timings are based on four parameters (in seconds): the delay between exiting the car and the arming of the alarm (T_ARM_DELAY), the length of the countdown before the alarm sounds after opening the driver's door (T_DRIVER_DELAY) or passenger door (T_PASSENGER_DELAY), and the length of time the siren sounds (T_ALARM_ON). The default value for each parameter is listed in the table below, but each may be set to other values using the Time_Parameter_Selector, Time_Value, and Reprogram signals. Time_Parameter_Selector switches specify the parameter number of the parameter to be changed. Time_Value switches are a 4-bit value representing the value to be programmed -- a value in seconds between 0 and 15. Pushing the Reprogram button tells the system to set the currently selected parameter to Time_Value. Note that your system should behave correctly even if one or more of the parameters is set to 0.
+<img width="761" alt="Screenshot 2024-08-24 at 11 07 58 PM" src="https://github.com/user-attachments/assets/931be4c8-415a-4763-b2a6-c4dc99c7d9a4">
 
 
